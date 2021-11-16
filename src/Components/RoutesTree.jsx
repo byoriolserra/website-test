@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import { Home } from './Home';
-import { Art } from './Art';
-import { Code } from './Code';
-import { Contact } from './Contact';
+import { Home } from './Home/Home';
+import { Art } from './Art/Art';
+import { Code } from './Code/Code';
+import { Contact } from './Contact/Contact';
 
 const RoutesTree = () => {
     return (
